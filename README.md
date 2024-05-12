@@ -125,7 +125,8 @@ TIM_HandleTypeDef htim2;
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
-
+```
+```
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
@@ -143,6 +144,8 @@ static void MX_TIM2_Init(void);
   * @brief  The application entry point.
   * @retval int
   */
+```
+```
 int main(void)
 {
   /* USER CODE BEGIN 1 */
@@ -185,11 +188,12 @@ int main(void)
   }
   /* USER CODE END 3 */
 }
-
 /**
   * @brief System Clock Configuration
   * @retval None
   */
+```
+```
 void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
@@ -224,7 +228,8 @@ void SystemClock_Config(void)
     Error_Handler();
   }
 }
-
+```
+```
 /**
   * @brief TIM2 Initialization Function
   * @param None
@@ -283,7 +288,8 @@ static void MX_TIM2_Init(void)
   HAL_TIM_MspPostInit(&htim2);
 
 }
-
+```
+```
 /**
   * @brief GPIO Initialization Function
   * @param None
@@ -334,11 +340,6 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif /* USE_FULL_ASSERT */
 
 ```
-
-
-
-
-
 ## Output screen shots of proteus  :
 
 
